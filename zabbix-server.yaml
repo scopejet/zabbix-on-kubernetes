@@ -22,7 +22,7 @@ spec:
         zabbix-app: zabbix-server
     spec:
       containers:
-      - image: zabbix/zabbix-server-mysql:ubuntu-4.4-latest
+      - image: zabbix/zabbix-server-mysql:ubuntu-7.2
         name: zabbix-server
         env:
           - name: MYSQL_ROOT_PASSWORD
